@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@media screen and (min-width: 801px){
+
+header{
+  #nav__pc{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    ul{
+      display: flex;
+      padding: 20px;
+      justify-content: right;
+      li{
+        padding-right: 25px;
+        a{
+        }
+      }
+    }
+  }
+  .menu-content{
+    display: none;
+  }
+  #menu-btn-check {
+      display: none;
+  }
+}
+
+.change-color {
+    background-color: #fff;
+    opacity: 0.8;
+    border: 1px solid #aaa;
+background-size:100% auto}
+
+main{
+  #sec_1{
+    position: relative;
+    text-align: center;
+    img{
+      position: relative;
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    .main__text{
+      position: absolute;
+      z-index: 100;
+      top: 50%;;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      h1{
+        color: #fff;
+        font-size: 4vw;
+        text-align: center;
+        font-family: 'Caveat', cursive;
+        letter-spacing: -0.2vw;
+      }
+      p{
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+
+  #sec_2{
+    margin-top: 6vw;
+    h2{
+      text-align: center;
+      padding-bottom: 3vw;
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+    p{
+      width: 70vw;
+      margin: 0 auto;
+
+    }
+  }
+
+  #sec_3{
+    margin-top: 6vw;
+    .message{
+      display: flex;
+      flex-wrap: wrap;
+      img{
+        width: 50vw;
+      }
+      &__text{
+        width: 50vw;
+        background-color: #EEEEEE;
+        padding-top: 8vw;
+        h2{
+          text-align: center;
+          padding-bottom: 2vw;
+          font-size: 1.5vw;
+          font-weight: bold;
+        }
+        p{
+          margin: 0 auto;
+          width: 40vw;
+          font-size: 1vw;
+        }
+      }
+    }
+    .message__2{
+      img{
+        order: 2;
+      }
+      &__text{
+        order: 1;
+      }
+    }
+  }
+
+  #sec_4{
+    margin-top: 6vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    .smt{
+      h2{
+        text-align: center;
+        padding-bottom: 1.5vw;
+        font-weight: bold;
+      }
+      img{
+        border-radius:50%;
+        width: 20vw;
+        height: 20vw;
+        object-fit: cover;
+
+      }
+      p{
+        width: 20vw;
+        padding-top: 1.5vw;
+      }
+    }
+  }
+
+  #sec_5{
+    background: url(../../img/bgSec04.jpg) no-repeat 100% 100% fixed;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+    min-height: 400px;
+    .ss{
+      display: flex;
+      justify-content: center;
+      margin-top: 6vw;
+      .ss__text{
+        padding: 3vw;
+        padding-top: 6vw;
+        h2{
+          color: #fff;
+          text-align: center;
+          padding-bottom: 2vw;
+          font-size: 1.5vw;
+          font-weight: bold;
+        }
+        p{
+          color: #fff;
+          width: 33vw;
+        }
+      }
+    }
+  }
+
+  // #sec_6{
+  //   display: flex;
+  //   justify-content: space-around;
+  //   margin-top: 6vw;
+  //   dl{
+  //     dt{
+  //       float: left;
+  //       text-align: right;
+  //       padding-right: 4vw;
+  //     }
+  //   }
+  //   .map__content{
+  //     iframe{
+  //       width: 400px;
+  //       height: 300px;
+  //     }
+  //   }
+  // }
+  #sec_6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6vw;
+    margin-bottom: 12vw;
+    dl{
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      dt{
+        width: 50%;
+        text-align: right;
+      }
+      dd{
+        width: 40%;
+        padding-left: 10%;
+        a{
+          color: blue;
+        }
+      }
+    }
+    .map__content{
+      width: 50%;
+      padding-left: 6vw;
+      iframe{
+        width: 400px;
+        height: 300px;
+      }
+    }
+  }
+
+}
+
+footer{
+  padding-bottom: 4vw;
+  p{
+    text-align: center;
+    font-size: 0.8vw;
+    br{
+      display: none;
+    }
+    a{
+      color: blue;
+    }
+  }
+}
+}
